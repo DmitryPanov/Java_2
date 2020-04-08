@@ -3,6 +3,6 @@ package lesson2;
 public class LengthArrayException extends Exception {
 
     public LengthArrayException (){
-        System.out.println("Длина Массива не равна 4");
+        System.out.println("Массив не 4 x 4");
     }
 }
