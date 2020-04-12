@@ -7,13 +7,12 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-
-        String [] str = {"a1a","bb","cc","aa","dd","cc","aa"};
+        String s = "Шакал шагал шакал скакал купи кипу пик пик кипу купи купи кипу пуха кипу пуха купи повар Петр повар Павел Петр плавал Павел плавал";
+        String [] str = s.split(" ");
+        String [] str1 = {"a1a","bb","cc","aa","dd","cc","aa"};
 
         deleteDuplicates(str);
         countElement(str);
-
-
 
     }
 
